@@ -8,13 +8,21 @@ Before running the analysis, software versions were checked to ensure compatibil
 
 ### Commands:
 fastqc --version
+
 trimmomatic --version
+
 sudo apt update && sudo apt install samtools -y
+
 samtools --version
+
 bwa index --version
+
 apt update && apt install -y openjdk-17-jdk
+
 java -version
+
 gatk --version
+
 ### Rationale:
 Ensuring that all tools are installed and compatible with the workflow.
 
